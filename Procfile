@@ -1,1 +1,1 @@
-web: gunicorn challenge:aq_dashboard.py --timeout 300
+web: gunicorn challenge:APP --timeout 300
