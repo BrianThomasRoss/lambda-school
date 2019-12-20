@@ -1,0 +1,28 @@
+  
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ title }}</title>
+        <!-- CSS, keywords, metadata goes here -->
+        <link rel="stylesheet" href="https://unpkg.com/picnic">
+    </head>
+    
+    <body>
+        <nav>
+            <a href="/" class="brand"><span>Air Quality Monitor</span></a>
+            <!-- responsive -->
+            <input id="bmenub" type="checkbox" class="show">
+            <label for="bmenub" class="burger pseudo button">Menu</label>
+            <div class="menu">
+                <a href="/refresh" class="button warning", style="background-color: red;">Refresh DB</a>
+            </div>
+        </nav>
+        <article class="flex two" style="padding: 3em 1em;">
+            <div>
+                <h1><a href='/' style="color:#000000;">Air Quality Monitor</a></h1>
+                {% block content %}
+                {% endblock %}
+                </body>
+            </div>
+        </article>
+</html>
