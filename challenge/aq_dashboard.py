@@ -3,7 +3,7 @@ from flask import Flask, request, render_template, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
 from decouple import config
 from dotenv import load_dotenv
-from .models import DB
+from .models import DB, City, Record
 
 load_dotenv()
 
@@ -24,7 +24,7 @@ def create_app():
 
     @APP.route('/refresh')
     def refresh():
-        """Pull fresh data from Open AQ and replace existing data."""
+        
         DB.drop_all()
         DB.create_all()
         city_list = ['Los Angeles','Mainz']
