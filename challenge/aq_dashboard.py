@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 from .models import DB, City, Record
 
 load_dotenv()
+api = OpenAQ()
 
 def create_app():
     APP = Flask(__name__)
