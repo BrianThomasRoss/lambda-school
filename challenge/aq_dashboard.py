@@ -12,7 +12,7 @@ def create_app():
     APP = Flask(__name__)
     api = OpenAQ()
     APP.config['SQLALCHEMY_DATABASE_URI'] = config('DATABASE_URL')
-    DB = SQLAlchemy(APP)
+    DB.init_app(APP)
 
     @APP.route('/')
     def root():
@@ -24,8 +24,7 @@ def create_app():
 
 
     @APP.route('/refresh')
-    def refresh():
-        
+    def refresh():        
         DB.drop_all()
         DB.create_all()
         city_list = ['Los Angeles','Mainz']
