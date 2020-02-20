@@ -21,10 +21,13 @@ sdist/
 var/
 wheels/
 <<<<<<< HEAD
+<<<<<<< HEAD
 pip-wheel-metadata/
 share/python-wheels/
 =======
 >>>>>>> DS-Unit-4-Sprint-2-Neural-Networks/master
+=======
+>>>>>>> DS-Unit-4-Sprint-3-Deep-Learning/master
 *.egg-info/
 .installed.cfg
 *.egg
@@ -44,9 +47,12 @@ pip-delete-this-directory.txt
 htmlcov/
 .tox/
 <<<<<<< HEAD
+<<<<<<< HEAD
 .nox/
 =======
 >>>>>>> DS-Unit-4-Sprint-2-Neural-Networks/master
+=======
+>>>>>>> DS-Unit-4-Sprint-3-Deep-Learning/master
 .coverage
 .coverage.*
 .cache
@@ -54,9 +60,12 @@ nosetests.xml
 coverage.xml
 *.cover
 <<<<<<< HEAD
+<<<<<<< HEAD
 *.py,cover
 =======
 >>>>>>> DS-Unit-4-Sprint-2-Neural-Networks/master
+=======
+>>>>>>> DS-Unit-4-Sprint-3-Deep-Learning/master
 .hypothesis/
 .pytest_cache/
 
@@ -69,9 +78,12 @@ coverage.xml
 local_settings.py
 db.sqlite3
 <<<<<<< HEAD
+<<<<<<< HEAD
 db.sqlite3-journal
 =======
 >>>>>>> DS-Unit-4-Sprint-2-Neural-Networks/master
+=======
+>>>>>>> DS-Unit-4-Sprint-3-Deep-Learning/master
 
 # Flask stuff:
 instance/
@@ -89,6 +101,7 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 # IPython
 profile_default/
@@ -111,12 +124,17 @@ __pypackages__/
 celerybeat-schedule
 celerybeat.pid
 =======
+=======
+>>>>>>> DS-Unit-4-Sprint-3-Deep-Learning/master
 # pyenv
 .python-version
 
 # celery beat schedule file
 celerybeat-schedule
+<<<<<<< HEAD
 >>>>>>> DS-Unit-4-Sprint-2-Neural-Networks/master
+=======
+>>>>>>> DS-Unit-4-Sprint-3-Deep-Learning/master
 
 # SageMath parsed files
 *.sage.py
@@ -143,6 +161,7 @@ venv.bak/
 # mypy
 .mypy_cache/
 <<<<<<< HEAD
+<<<<<<< HEAD
 .dmypy.json
 dmypy.json
 
@@ -150,3 +169,5 @@ dmypy.json
 .pyre/
 =======
 >>>>>>> DS-Unit-4-Sprint-2-Neural-Networks/master
+=======
+>>>>>>> DS-Unit-4-Sprint-3-Deep-Learning/master
