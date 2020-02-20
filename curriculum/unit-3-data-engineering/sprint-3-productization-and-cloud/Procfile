@@ -1,0 +1,1 @@
+web: gunicorn challenge:APP --timeout 300
