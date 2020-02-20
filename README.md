@@ -1,2 +1,1 @@
-# lambda-school
- Curriculum and resources for lambda school
+# DS-Unit-2-Applied-Modeling
